@@ -20,7 +20,8 @@ body {
     height: 200px;
     position: relative;
     background-color: #698070;
-    background-image: url("trees-bg1.jpeg"); 
+    background-image: url("trees-bg1.jpeg");
+    /*opacity: .5;*/
     background-position: top right;
 }
 
@@ -31,6 +32,13 @@ body {
     position: absolute;
     font-size: 1.2em;
     text-decoration: none;
+}
+.header h1 {
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.4), 7px 7px 0px rgba(0,0,0,0.34);    
+}
+
+p, li {
+    font-size: 1.2em;
 }
 
 .fix {
@@ -57,14 +65,23 @@ body {
 
 .page {
     padding: 80px 20px 80px 20px;
-    width: 80%;
+    width: 70%;
     max-width: 1000px;
     margin: 0 auto;
     background-color: rgba(178,220,180, .7);
 }
 
-img {
+.svg {
     width: 100%;    
+}
+
+.img {
+    width: 100%;    
+}
+
+.img2 {
+    border: 10px solid #698070;
+    width: 550px;    
 }
 
 .page h1 {
@@ -72,10 +89,21 @@ img {
     font-family: 'Roboto Slab', serif;
 }
 
+table {
+    max-width: 100%;    
+} 
+
 table, tr, td {
     padding: 10px;
     border-collapse: collapse;
     border: 1px solid #698070;
+}
+
+.quote {
+    font-size: 2em;
+    line-height: 10px;
+    font-family: 'Ruthie', cursive;
+
 }
 
 nav {
@@ -107,7 +135,6 @@ nav a:hover {
 
 h3 {
     font-family: 'Roboto Slab', serif;
-    line-height: 2px;
     font-weight: normal;
     font-size: 1.8em;
 }
@@ -115,10 +142,13 @@ h3 {
 h5 {
     font-family: 'Roboto Slab', serif;
     font-weight: normal;
-    font-size: 1.4em;
+    font-size: 1.5em;
     line-height: 2px;
 }
 
+iframe {
+    border: none;
+}
 
 /* Journal styling */
 
