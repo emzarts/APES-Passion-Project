@@ -21,6 +21,7 @@ body {
     position: relative;
     background-color: #698070;
     background-image: url("trees-bg1.jpeg");
+    background-blend-mode: hard-light;
     /*opacity: .5;*/
     background-position: top right;
 }
